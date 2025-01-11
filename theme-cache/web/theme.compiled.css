@@ -27655,4 +27655,77 @@ input[type=checkbox].three-state-checkbox + .control-label {
   border-width: 0;
 }
 
+/* Yellow */
+/* OrangeRed */
+.layout-atlas .region-topbar {
+  background-color: #f0c400;
+}
+
+.mx-icon-pencil {
+  color: #f0c400;
+}
+.mx-icon-pencil:hover {
+  color: #bd9a00;
+}
+
+.mx-icon-trash-can {
+  color: #f0c400;
+}
+.mx-icon-trash-can:hover {
+  color: #bd9a00;
+}
+
+.button-icon {
+  color: #f0c400;
+}
+.button-icon:hover {
+  color: #bd9a00;
+}
+
+.mx-radiogroup input[type=radio]::after {
+  background-color: #f0c400;
+}
+.mx-radiogroup input[type=radio]:checked:before {
+  border-color: #f0c400;
+}
+
+.btn-default {
+  color: #f0c400;
+}
+
+.mx-icon-filled {
+  color: #f0c400;
+}
+.mx-icon-filled:hover {
+  color: #bd9a00;
+}
+
+.react-datepicker__day-name {
+  color: #f0c400;
+}
+.react-datepicker__day-name:hover {
+  color: #bd9a00;
+}
+
+.column-selector-button {
+  color: #f0c400;
+}
+.column-selector-button:hover {
+  color: #bd9a00;
+}
+
+.btn-primary {
+  background-color: #f0c400;
+  border-color: #f0c400;
+}
+.btn-primary:hover {
+  background-color: #ffd20b;
+  border-color: #ffd20b;
+}
+.btn-primary:focus, .btn-primary:active {
+  background-color: #f0c400 !important;
+  /* Ensures yellow stays */
+  border-color: #f0c400 !important;
+}
+
 /*# sourceMappingURL=theme.compiled.css.map */

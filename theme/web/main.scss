@@ -1,1 +1,82 @@
 @import "custom-variables";
+
+$primary-color: #f0c400; /* Yellow */
+$link-color: #FF4500; /* OrangeRed */
+
+.layout-atlas .region-topbar {
+    background-color: $primary-color;
+}   
+
+
+
+.mx-icon-pencil{
+    color: $primary-color;
+    &:hover {
+        color: darken($primary-color, 10%);
+    }
+}
+
+.mx-icon-trash-can{
+    color: $primary-color;
+    &:hover {
+        color: darken($primary-color, 10%);
+    }
+}
+
+.button-icon {
+    color: $primary-color;
+    &:hover {
+        color: darken($primary-color, 10%);
+    }
+}
+
+.mx-radiogroup {
+input[type="radio"]::after{
+    background-color: $primary-color;
+}
+
+input[type='radio']:checked:before{
+    border-color:$primary-color;
+    }
+}
+
+
+
+.btn-default {
+    color: $primary-color
+}
+
+.mx-icon-filled {
+    color: $primary-color;
+    &:hover {
+        color: darken($primary-color, 10%);
+    }
+}
+
+.react-datepicker__day-name {
+    color: $primary-color;
+    &:hover {
+        color: darken($primary-color, 10%);
+    }
+}
+
+.column-selector-button {
+    color: $primary-color;
+    &:hover {
+        color: darken($primary-color, 10%);
+    }
+}
+
+.btn-primary {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    &:hover {
+        background-color: lighten($primary-color, 5%);
+        border-color: lighten($primary-color, 5%);
+    }
+    &:focus, 
+    &:active {
+        background-color: $primary-color !important; /* Ensures yellow stays */
+        border-color: $primary-color !important;
+    }
+}
